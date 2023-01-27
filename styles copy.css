@@ -1,0 +1,517 @@
+html {
+    background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+ 
+ }
+ 
+ 
+ body {
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 834px;
+ }
+ #home{
+    color: white;
+    font-size: 1.25em;
+    font-variant: small-caps;
+ }
+ 
+ 
+ nav ul {
+    color: white;
+    display: inline-flex;
+ 
+ 
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+ 
+ 
+ }
+ 
+ 
+ nav a {
+    text-decoration: none;
+    color: white;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ nav li {
+    color: white;
+    width:150px ;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ li:hover {
+    background-color: #590242;
+ }
+ 
+ 
+ h1 {
+    color: white;
+    font-size: 1.25em;
+    padding-left: 10px;
+    font-variant: small-caps;
+ }
+ #jazz{
+    padding-left: 10px;
+ }
+ header {
+    display: flex;
+    background-color: #020873;
+    align-items: center;
+ 
+ 
+ }
+ 
+ 
+ #gradienthead {
+ 
+ 
+    background: rgb(0, 212, 255);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(33, 4, 217, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: -20px;}
+ 
+ 
+ 
+ 
+ h2 {
+    color:white;
+    font-size: 1em;
+ }
+ h3{
+    color: #590242;
+    font-size: 1em;
+ }
+ 
+ 
+ p{
+    color:white;
+    font-size: 1em;
+ }
+ 
+ 
+ dl {
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    color: #590242;
+  }
+  dt {
+    float: left;
+    width: 17%;
+    padding: 0;
+    margin: 0;
+    font-style:italic;
+    color: #590242;
+  }
+  dd {
+    float: left;
+    margin: 0;
+    width: 50%;
+    padding: 0;
+    color: #590242;
+  }
+ .songname{
+    padding-left: 15px;
+    background-color:white;
+    opacity: 0.7;
+    margin-left: 10px;
+    position: absolute;
+    width:311px;
+    top:240px;
+ 
+ 
+   
+ }
+ a {
+    color: white;
+ }
+ 
+ 
+ footer {
+    color: #590242;
+    text-align: center;
+    background-color: white;
+ }
+ 
+ 
+ #trendcolor {
+    color: #590242;
+    background-color: white;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+ 
+ 
+ }
+ 
+ 
+ audio{
+    position: absolute;
+    bottom: 140px;
+    left: 5px;
+    padding-left: 30px;
+ }
+ #trending section{
+    position: relative;
+ }
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ .button1,
+ .button2,
+ .button3 {
+    background-color: #590242;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ 
+ .button1:hover {
+    background-color: #020659;
+ }
+ 
+ 
+ .button2:hover {
+    background-color: #020659;
+ }
+ 
+ 
+ .button3:hover {
+    background-color: #020659;
+ }
+ img{
+    padding-left: 10px;
+ }
+ 
+ 
+  
+ 
+ 
+ #gradienthead{
+    max-width: 834px;
+ 
+ 
+ }
+ 
+ 
+ .button1{
+    margin-left: 690px;
+    margin-top: 5px;
+ }
+ .button2{
+    margin-top: 3px;
+    margin-left: 5px;
+ }
+ .button3{
+    margin:0 auto;
+    margin-left:280px;
+    margin-top: 10px;
+   
+ }
+ 
+ 
+ @media screen and (min-width: 834px) {
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 
+ 
+        width: 800px;}
+ 
+ 
+        #grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            overflow: hidden;
+           
+        }
+        #playlists {
+            background-color: white;
+       
+        }
+        #curated{
+            background-color: white;
+        }
+        .playlists{
+            height: 400px;
+            overflow-y: auto;
+            background-color:#0D8AFB;
+        }
+        .curated{
+            height: 400px;
+            overflow-y: auto;
+            background-color: #020873;
+        }
+        .subs{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            margin-bottom: 15px;
+           
+          
+        }
+        .sect{
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+        }
+        .playlists .subs{
+            background-color:#2699FB;
+            margin: 10px;
+        }
+       
+     
+ 
+ 
+ 
+ 
+        .curated .subs{
+            background-color: #020659;
+            margin: 10px;
+        }
+        .color{
+            color: #590242;
+            padding-left: 25px;
+        }
+        #buttonback{
+            background-color: white;
+        }
+        #buttcolor{
+            background-color: white;
+            width: 834px;
+            padding-bottom: 50px;
+        }
+        .button2{
+            margin-left: 250px;
+        }
+ 
+ 
+        }
+       
+       
+       
+       
+      
+       
+       
+      
+       
+           
+       
+       
+       
+   
+ 
+ 
+   
+   
+ @media screen and (min-width: 375px) {
+  
+    #trending {
+        display: flex;
+        max-width: 834px;
+        background-color: white;
+        padding: 10px;
+        overflow-x: auto;}
+ 
+ 
+        #grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+ 
+ 
+        }
+        #playlist section{
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+ #curated section{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+ 
+ 
+ 
+ 
+       
+      
+       
+       
+ ul {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+ 
+ 
+ }
+ label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 28px 20px;
+    position: relative;
+   
+ }
+ label span {
+    background-color: #ffffff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color .2s ease-out;
+    width: 18px;
+ }
+ label span:before, label span:after {
+    background: #ffffff;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+ }
+ label span:before {
+    top: 5px;
+ }
+ label span:after {
+    top: -5px;
+ }
+ input {
+    display: none;
+ }
+ input:checked ~ ul {
+    max-height: 500px;
+ }
+ input:checked ~ label span {
+    background: transparent;
+ }
+ input:checked ~ label span:before {
+    transform: rotate(-45deg);
+ }
+ input:checked ~ label span:after {
+    transform: rotate(45deg);
+ }
+ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
+    top: 0;
+ }
+ 
+ 
+ @media screen and (min-width:834px) {
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
+ }
+       
+ 
+ 
+       
+       
+   
+   
+      
+ 
+ 
+       
+ 
+ 
+      
+      
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #trending ::-webkit-scrollbar {
+ overflow-x: auto;
+ }
+ #trending ::-webkit-scrollbar-track {
+    overflow-x: auto;
+ 
+ 
+ }
+ #trending ::-webkit-scrollbar-thumb {
+    overflow-x: auto;
+ 
+ 
+ }
+ #trending ::-webkit-scrollbar-thumb:hover {
+    overflow-x: auto;
+ 
+ 
+ }
+ #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+ 
+ 
+ }
+ #playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+ 
+ 
+ }
+ #playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+ 
+ 
+ }
+ #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+ 
+ 
+ }
+ 
+ 
+ 
